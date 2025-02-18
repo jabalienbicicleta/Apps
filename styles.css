@@ -38,6 +38,10 @@ body {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    width: 200px; /* Fixed width for all buttons */
+    text-align: center; /* Center the text inside the button */
+    display: block; /* Make the button a block element to respect the width */
+    margin: 0 auto; /* Center the button horizontally */
 }
 
 .menu-button:hover {
